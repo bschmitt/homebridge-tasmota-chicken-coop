@@ -1,0 +1,27 @@
+{
+  "name": "homebridge-tasmota-chicken-coop",
+  "version": "1.0.0",
+  "description": "homebridge plugin for chicken coop automation based on esp8266 tasmota firmware",
+  "main": "index.js",
+  "repository": "git@github.com:bschmitt/homebridge-tasmota-chicken-coop.git",
+  "author": "Björn Schmitt <code@bjoern.io>",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin",
+    "MQTT",
+    "homekit",
+    "Siri",
+    "Alexa",
+    "IoT",
+    "Chicken Coop Door",
+    "Chicken Coop",
+    "Tasmota"
+  ],
+  "dependencies": {
+    "mqtt": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  }
+}
